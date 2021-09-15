@@ -1,0 +1,16 @@
+// var a = "Global";
+
+// function scopeTest(){
+//     var myLocal = "Local";
+//     document.write(myLocal);
+//     console.log(myLocal);
+// }
+
+// console.log(a);
+// scopeTest();
+
+var x = 1; //global
+{
+    let x = 2; //Local
+}
+console.log(x);
